@@ -7,9 +7,10 @@ Users can browse fresh produce, build a cart, and check out seamlessly.
 ---
 
 ## ✨ Features
-| Consumer | Vendor / Admin |
+| Consumer |
 |----------|----------------|
-| 🔎  Keyword & category search | 📦 Inventory dashboard |
+| 🔎  Keyword & category search
+| 📦 Inventory dashboard |
 | 🛒  Persistent cart
 
 
