@@ -1,9 +1,41 @@
-<<<<<<< HEAD
-# farm-to-table-hub
-=======
-# 🥑📱 GROCERY SHOP APP x FLUTTER
+# 🥑 Farm-to-Table Hub
 
-Watch tutorial here: https://youtu.be/uSljGJGSl6w
+A full-stack platform that connects local farmers, campus co-ops, and students through
+**web** (React/Node) *and* **mobile** (Flutter) front-ends.  
+Users can browse fresh produce, build a cart, and check out seamlessly.
 
-![53AC0750-FB81-4C11-9349-448E7FC4717E](https://user-images.githubusercontent.com/29016489/202695738-b37d8ffe-a2c7-41fb-9719-b032bb1ab8c4.JPG)
->>>>>>> 223d0d9 (Initial project import)
+---
+
+## ✨ Features
+| Consumer | Vendor / Admin |
+|----------|----------------|
+| 🔎  Keyword & category search | 📦 Inventory dashboard |
+| 🛒  Persistent cart
+
+
+---
+
+## 🏗️ Tech Stack
+| Layer | Tech |
+|-------|------|
+| Mobile app | **Flutter** 3.16 • Riverpod • GoRouter |
+| Web client | **React 18** • Next.js • Tailwind CSS |
+| Server | **Node.js** • Express • REST + WebSocket |
+| Database | **MongoDB Atlas** |
+| Cloud / DevOps | Docker • GitHub Actions • Render |
+| Search & Vector store | Pinecone + LangChain (for product Q&A) |
+
+---
+
+## 🚀 Local Setup
+
+```bash
+# 1. clone
+git clone https://github.com/tushitam1/farm-to-table-hub.git
+cd farm-to-table-hub
+
+# 2. install root dependencies
+npm install
+
+# 3. start API (port 5000) & web (port 3000)
+npm run dev
